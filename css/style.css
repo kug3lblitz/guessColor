@@ -2,6 +2,25 @@ body {
   background: #232323;
 }
 
+h1 {
+  color: white;
+  text-align: center;
+}
+
+#hintLine {
+  color: #232323;
+  text-align: center;
+}
+
+/*#colorDisplay {*/
+  /*color: white;*/
+/*}*/
+
+#container {
+  margin: 0 auto;
+  width:70%;
+}
+
 .square {
   width: 30%;
   background: yellow;
