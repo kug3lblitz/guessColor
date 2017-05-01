@@ -1,5 +1,6 @@
 body {
   background: #232323;
+  font-family: sans-serif;
 }
 
 h1 {
@@ -27,4 +28,16 @@ h1 {
   padding-bottom: 30%;
   margin: 1.66%;
   float: left;
+}
+
+.console {
+  text-align: center;
+}
+
+#hintButton {
+  background: white;
+  color: black;
+  text-transform: uppercase;
+  font-size: 1em;
+  border-radius: 5px;
 }
