@@ -1,41 +1,29 @@
 body {
-  background: #232323;
-  font-family: sans-serif;
-}
-
-h1 {
-  color: white;
-  text-align: center;
-}
-
-#hintLine {
-  color: #232323;
-  text-align: center;
-}
-
-/*#colorDisplay {*/
-  /*color: white;*/
-/*}*/
-
-#container {
-  margin: 0 auto;
-  width:70%;
+  background-color: #232323;
 }
 
 .square {
   width: 30%;
-  background: yellow;
+  background: purple;
   padding-bottom: 30%;
-  margin: 1.66%;
   float: left;
+  margin: 1.66%;
 }
 
-.console {
+#container {
+  margin: 0px auto;
+  max-width: 600px;
+}
+
+h1 {
+  color: white;
+}
+
+#stripe {
+  background: white;
+  height: 30px;
   text-align: center;
-}
-
-.console button {
-  margin: 5px;
+  color: black;
 }
 
 button {
@@ -52,9 +40,9 @@ button {
 }
 
 @keyframes blink {
-   50% { border-color: #ff0000; }
+  50% { border-color: #ff0000; }
 }
 
 .selected { /*or other element you want*/
-    animation: blink .5s step-end infinite alternate;
+  animation: blink .5s step-end infinite alternate;
 }

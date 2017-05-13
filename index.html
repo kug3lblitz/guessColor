@@ -6,14 +6,18 @@
     <title></title>
 </head>
 <body>
-    <h1>Guess the Pre-Selected Color!</h1>
-    <h3 id="hintLine">Here's a hint: <span id="colorDisplay"></span></h3>
-    <div class="console">
-        <button id="easy">Easy Mode</button>
-        <button class="selected" id="hard">Hard Mode</button>
-        <button id="reset">Reset</button>
-        <button id="hintButton">Need a Hint?</button>
+    <h1>
+        The Great <span id="colorDisplay">RGB</span> Color Game
+    </h1>
+
+    <div id="stripe">
+        <button id="showHint">Show Hint?</button>
+        <button id="reset">New Colors</button>
+        <span id="message"></span>
+        <button id="easyBtn">Easy</button>
+        <button id="hardBtn" class="selected">Hard</button>
     </div>
+
     <div id="container">
         <div class="square"></div>
         <div class="square"></div>
@@ -22,6 +26,9 @@
         <div class="square"></div>
         <div class="square"></div>
     </div>
-<script src="./js/main.js"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
+</html>
+
